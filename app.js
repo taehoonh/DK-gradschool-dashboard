@@ -1,4 +1,57 @@
 const DATA_URL = "./data/schools.json";
+const STATE_NAMES = {
+  AL: "Alabama",
+  AK: "Alaska",
+  AZ: "Arizona",
+  AR: "Arkansas",
+  CA: "California",
+  CO: "Colorado",
+  CT: "Connecticut",
+  DC: "District of Columbia",
+  DE: "Delaware",
+  FL: "Florida",
+  GA: "Georgia",
+  HI: "Hawaii",
+  IA: "Iowa",
+  ID: "Idaho",
+  IL: "Illinois",
+  IN: "Indiana",
+  KS: "Kansas",
+  KY: "Kentucky",
+  LA: "Louisiana",
+  MA: "Massachusetts",
+  MD: "Maryland",
+  ME: "Maine",
+  MI: "Michigan",
+  MN: "Minnesota",
+  MO: "Missouri",
+  MS: "Mississippi",
+  MT: "Montana",
+  NC: "North Carolina",
+  ND: "North Dakota",
+  NE: "Nebraska",
+  NH: "New Hampshire",
+  NJ: "New Jersey",
+  NM: "New Mexico",
+  NV: "Nevada",
+  NY: "New York",
+  OH: "Ohio",
+  OK: "Oklahoma",
+  OR: "Oregon",
+  PA: "Pennsylvania",
+  RI: "Rhode Island",
+  SC: "South Carolina",
+  SD: "South Dakota",
+  TN: "Tennessee",
+  TX: "Texas",
+  UT: "Utah",
+  VA: "Virginia",
+  VT: "Vermont",
+  WA: "Washington",
+  WI: "Wisconsin",
+  WV: "West Virginia",
+  WY: "Wyoming",
+};
 
 const state = {
   allPrograms: [],
@@ -99,7 +152,8 @@ function populateFilters(programs) {
   ].sort();
 
   for (const value of states) {
-    els.stateFilter.append(new Option(value, value));
+    const label = STATE_NAMES[value] ? `${STATE_NAMES[value]} | ${value}` : value;
+    els.stateFilter.append(new Option(label, value));
   }
 
   for (const value of programTypes) {
