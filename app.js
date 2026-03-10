@@ -242,7 +242,7 @@ function renderDetail() {
   const selected = state.filteredPrograms.find((item) => item.id === state.selectedId);
   if (!selected) {
     els.detailCard.className = "detail-card empty";
-    els.detailCard.textContent = "Select a program from the map or list. Source: curated by Data KorLab.";
+    els.detailCard.textContent = "Select a program from the map or list.";
     return;
   }
 
@@ -261,10 +261,6 @@ function renderDetail() {
         <strong>${escapeHtml(selected.city)}, ${escapeHtml(selected.state)} ${selected.zipcode || ""}</strong>
       </div>
       <div>
-        <span>Coordinates</span>
-        <strong>${selected.latitude.toFixed(4)}, ${selected.longitude.toFixed(4)}</strong>
-      </div>
-      <div>
         <span>Program page</span>
         ${
           selected.link
@@ -275,10 +271,6 @@ function renderDetail() {
       <div>
         <span>Details</span>
         <strong>${escapeHtml(selected.details || "No additional notes in the dataset.")}</strong>
-      </div>
-      <div>
-        <span>Source</span>
-        <strong>Curated by Data KorLab</strong>
       </div>
     </div>
   `;
