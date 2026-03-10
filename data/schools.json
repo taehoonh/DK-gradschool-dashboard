@@ -13,14 +13,14 @@
   },
   {
     "schools": "American University, Kogod School of Business",
-    "programs": "MS in Analytics",
+    "programs": "MS in Business Analytics and Artificial Intelligence",
     "city": "Washington",
     "state": "DC",
     "zipcode": 20016,
     "latitude": 38.9376,
     "longitude": -77.0899,
     "year_established": 2015,
-    "details": "",
+    "details": "Formerly MS in Analytics",
     "links": "https://www.american.edu/kogod/graduate/MS-ANLT.cfm"
   },
   {
@@ -69,7 +69,7 @@
     "longitude": -85.4894,
     "year_established": 2021,
     "details": "",
-    "links": "hhttps://eng.auburn.edu/program/master-of-science-data-science-engineering"
+    "links": "https://eng.auburn.edu/program/master-of-science-data-science-engineering"
   },
   {
     "schools": "Babson College, Olin Graduate School of Business",
@@ -141,7 +141,7 @@
     "longitude": -88.0968,
     "year_established": 2013,
     "details": "",
-    "links": "https://www.ben.edu/college-of-business/graduate/msba-master-of-science-in-business-analytics.cfm"
+    "links": "https://ben.edu/degree_programs/business-analytics-ms/"
   },
   {
     "schools": "Bentley University, McCallum Graduate School of Business",
@@ -153,7 +153,7 @@
     "longitude": -71.2229,
     "year_established": 2014,
     "details": "",
-    "links": "https://admissions.bentley.edu/graduate/masters-in-analytics"
+    "links": "https://www.bentley.edu/academics/graduate-programs/masters-business-analytics"
   },
   {
     "schools": "Binghamton University, State University of New York, Harpur College of Arts and Sciences, School of Management, and Watson School of Engineering and Applied Science",
@@ -213,7 +213,7 @@
     "longitude": -71.1048,
     "year_established": 2019,
     "details": "",
-    "links": "https://www.bu.edu/questrom/degree-programs/ms-in-business-analytics/"
+    "links": "https://www.bu.edu/questrom/graduate-programs/specialty-masters-programs/ms-in-business-analytics/"
   },
   {
     "schools": "Bowling Green State University, Graduate College",
@@ -264,18 +264,6 @@
     "links": "https://www.brown.edu/initiatives/data-science/masters-degree"
   },
   {
-    "schools": "Cabrini University, Graduate Studies Division",
-    "programs": "MS in Data Science",
-    "city": "Radnor",
-    "state": "PA",
-    "zipcode": 93407,
-    "latitude": 40.0583,
-    "longitude": -75.3806,
-    "year_established": 2022,
-    "details": "",
-    "links": "https://www.cabrini.edu/graduate-degrees/programs/data-science"
-  },
-  {
     "schools": "California Polytechnic State University – San Luis Obispo, Orfalea College of Business",
     "programs": "MS in Business Analytics",
     "city": "San Luis Obispo",
@@ -285,7 +273,7 @@
     "longitude": -120.6625,
     "year_established": 2016,
     "details": "",
-    "links": "https://www.cob.calpoly.edu/gradbusiness/degree-programs/ms-business-analytics/"
+    "links": "https://orfalea.calpoly.edu/graduate-programs/ms-business-analytics"
   },
   {
     "schools": "California State University, East Bay, College of Business and Economics",
@@ -393,7 +381,7 @@
     "longitude": -84.775,
     "year_established": 2015,
     "details": "",
-    "links": "https://www.cmich.edu/colleges/cgs/programs/Pages/applied-stats-and-analytics.aspx"
+    "links": "https://www.cmich.edu/program/applied-statistics-analytics"
   },
   {
     "schools": "Chapman University, Schmid College of Science & Technology",
@@ -409,15 +397,15 @@
   },
   {
     "schools": "Charleston Southern University, College of Adult and Professional Studies",
-    "programs": "MS in Analytics",
+    "programs": "MS in Business Analytics",
     "city": "Charleston",
     "state": "SC",
     "zipcode": 10010,
     "latitude": 32.9236,
     "longitude": -80.6886,
     "year_established": 2019,
-    "details": "",
-    "links": "https://www.charlestonsouthern.edu/online/ms-analytics/"
+    "details": "Formerly MS in Analytics",
+    "links": "https://www.charlestonsouthern.edu/programs/master-of-science-in-business-analytics-ms/"
   },
   {
     "schools": "City University of New York, Baruch College, Zicklin School of Business",
@@ -489,7 +477,7 @@
     "longitude": -71.8247,
     "year_established": 2017,
     "details": "",
-    "links": "https://www.clarku.edu/programs/ms-business-analytics"
+    "links": "https://www.clarku.edu/programs/masters/business-analytics-ms/"
   },
   {
     "schools": "Clarkson University, Graduate School",
@@ -500,20 +488,32 @@
     "latitude": 44.6614,
     "longitude": -74.997,
     "year_established": 2021,
-    "details": "",
-    "links": "https://www.clarkson.edu/graduate/data-science"
+    "details": "Degree renamed Data Science in 2021",
+    "links": "https://www.clarkson.edu/academics/majors-minors/data-science-grad"
   },
   {
-    "schools": "Clarkson University, School of Arts and Sciences, School of Business, and Coulter School of Engineering",
-    "programs": "MS in Data Analytics",
+    "schools": "Clarkson University",
+    "programs": "MS in Healthcare Data Analytics",
     "city": "Potsdam",
     "state": "NY",
     "zipcode": 13699,
     "latitude": 44.6616,
     "longitude": -74.9968,
     "year_established": 2015,
-    "details": "Degree renamed Data Science in 2021",
-    "links": "https://www.clarkson.edu/graduate/data-science"
+    "details": "",
+    "links": "https://www.clarkson.edu/academics/majors-minors/healthcare-data-analytics"
+  },
+  {
+    "schools": "Clarkson University",
+    "programs": "MBA in Business Analytics",
+    "city": "Potsdam",
+    "state": "NY",
+    "zipcode": 13699,
+    "latitude": 44.6616,
+    "longitude": -74.9968,
+    "year_established": 2013,
+    "details": "",
+    "links": "https://www.clarkson.edu/academics/majors-minors/mba-business-analytics"
   },
   {
     "schools": "Clemson University, College of Business and College of Science",
@@ -540,7 +540,7 @@
     "links": "http://datascience.cofc.edu/graduate/"
   },
   {
-    "schools": "College of Saint Elizabeth, School of Arts and Sciences",
+    "schools": "Saint Elizabeth University, School of Arts and Sciences",
     "programs": "MS in Data Analytics",
     "city": "Morristown",
     "state": "NJ",
@@ -549,19 +549,7 @@
     "longitude": -74.4682,
     "year_established": 2017,
     "details": "",
-    "links": "https://www.cse.edu/msdata/"
-  },
-  {
-    "schools": "College of Saint Rose, Huether School of Business",
-    "programs": "MS in Business Analytics",
-    "city": "Albany",
-    "state": "NY",
-    "zipcode": 12203,
-    "latitude": 42.6638,
-    "longitude": -73.7846,
-    "year_established": 2017,
-    "details": "",
-    "links": "https://www.strose.edu/business-analytics-ms/"
+    "links": "https://www.steu.edu/academics/aas/math-computer-and-data-science/ms-in-data-analytics/index.html"
   },
   {
     "schools": "College of William & Mary, Mason School of Business",
@@ -573,7 +561,7 @@
     "longitude": -76.7075,
     "year_established": 2015,
     "details": "",
-    "links": "https://graduate.mason.wm.edu/msba/"
+    "links": "https://mason.wm.edu/graduate/msba/residential/"
   },
   {
     "schools": "Colorado School of Mines",
@@ -657,30 +645,30 @@
     "longitude": -95.946,
     "year_established": 2014,
     "details": "",
-    "links": "https://business.creighton.edu/program/business-intelligence-and-analytics-msbia"
+    "links": "https://www.creighton.edu/academics/programs/business-analytics-ms"
   },
   {
     "schools": "Dakota State University, Graduate Office",
-    "programs": "MS in Analytics",
+    "programs": "MS in Analytics and Applied Artificial Intelligence",
     "city": "Madison",
     "state": "SD",
     "zipcode": 57042,
     "latitude": 44.0079,
     "longitude": -97.1134,
     "year_established": 2014,
-    "details": "",
-    "links": "https://www.dsu.edu/msa/"
+    "details": "Formerly MS in Analytics",
+    "links": "https://dsu.edu/programs/msaa/"
   },
   {
     "schools": "Depaul University, College of Computing and Digital Media",
-    "programs": "MS in Predictive Analytics",
+    "programs": "MS in Data Science",
     "city": "Chicago",
     "state": "IL",
     "zipcode": 60604,
     "latitude": 41.8781,
     "longitude": -87.6298,
     "year_established": 2010,
-    "details": "Degree renamed Data Science in 2018",
+    "details": "Formerly MS in Predictive Analytics",
     "links": "https://www.cdm.depaul.edu/academics/Pages/MS-in-Data-Science.aspx"
   },
   {
@@ -717,11 +705,11 @@
     "longitude": -93.6523,
     "year_established": 2020,
     "details": "",
-    "links": "https://online.drake.edu/master-of-business-analytics/"
+    "links": "https://www.drake.edu/doce/programs/msba/"
   },
   {
-    "schools": "Drew University, Caspersen School of Graduate Studies",
-    "programs": "MS in Data Analytics",
+    "schools": "Drew University",
+    "programs": "MS in Data Science",
     "city": "Madison",
     "state": "NJ",
     "zipcode": 7940,
@@ -729,7 +717,7 @@
     "longitude": -74.4173,
     "year_established": 2019,
     "details": "",
-    "links": "https://www.drew.edu/caspersen/data-analytics/"
+    "links": "https://drew.edu/academics/data-science-ms/"
   },
   {
     "schools": "Drexel University, College of Computing and Informatics",
@@ -757,7 +745,7 @@
   },
   {
     "schools": "Duke University, Fuqua School of Business",
-    "programs": "Master of Quantitative Management",
+    "programs": "Master of Quantitative Management: Business Analytics",
     "city": "Durham",
     "state": "NC",
     "zipcode": 27708,
@@ -765,7 +753,7 @@
     "longitude": -78.9382,
     "year_established": 2017,
     "details": "",
-    "links": "https://www.fuqua.duke.edu/master-quantitative-management/"
+    "links": "https://www.fuqua.duke.edu/programs/mqm-business-analytics"
   },
   {
     "schools": "Duke University, Information Initiative at Duke and the Social Science Research Institute",
@@ -789,7 +777,7 @@
     "longitude": -79.9959,
     "year_established": 2019,
     "details": "",
-    "links": "https://www.duq.edu/academics/schools/business/graduate/specialized-masters/ms-aim"
+    "links": "https://www.duq.edu/academics/colleges-and-schools/business/degrees-and-programs/graduate/specialized-masters-certificates/ms-analytics-information-management/index.php"
   },
   {
     "schools": "Elmhurst College, Online Center",
@@ -861,7 +849,7 @@
     "longitude": -73.2576,
     "year_established": 2015,
     "details": "",
-    "links": "https://www.fairfield.edu/graduate-and-professional-studies/charles-f-dolan-school-of-business/masters-business-analytics/"
+    "links": "https://www.fairfield.edu/academics/graduate-education/masters-and-doctoral-degrees/business-analytics/"
   },
   {
     "schools": "Fairfield University, School of Engineering",
@@ -873,7 +861,7 @@
     "longitude": -73.2574,
     "year_established": 2022,
     "details": "",
-    "links": "https://fairfield.edu/graduate-and-professional-studies/school-of-engineering/graduate-programs/data-science/index.html"
+    "links": "https://www.fairfield.edu/academics/graduate-education/masters-and-doctoral-degrees/data-science/"
   },
   {
     "schools": "Florida International University, School of Computing and Information Sciences",
@@ -969,7 +957,7 @@
     "longitude": -77.3077,
     "year_established": 2014,
     "details": "",
-    "links": "https://volgenau.gmu.edu/dae"
+    "links": "https://catalog.gmu.edu/colleges-schools/engineering-computing/data-analytics-engineering-ms/"
   },
   {
     "schools": "George Washington University, Columbian College of Arts and Sciences",
@@ -1113,7 +1101,7 @@
     "longitude": -85.8888,
     "year_established": 2018,
     "details": "",
-    "links": "https://www.gvsu.edu/grad/dsa/"
+    "links": "https://www.gvsu.edu/academics/data-science-and-analytics-ms.htm"
   },
   {
     "schools": "Hamline University, School of Business",
@@ -1245,7 +1233,7 @@
     "longitude": -86.5184,
     "year_established": 2014,
     "details": "",
-    "links": "https://kelley.iu.edu/onlineMBA/Online/MSBA/page43444.cfm"
+    "links": "https://online.iu.edu/degrees/business-analytics-ms-graduate.html"
   },
   {
     "schools": "Iowa State University, College of Business",
@@ -1293,7 +1281,7 @@
     "longitude": -76.6203,
     "year_established": 2016,
     "details": "",
-    "links": "https://ep.jhu.edu/programs-and-courses/programs/data-science"
+    "links": "https://ep.jhu.edu/programs/data-science/"
   },
   {
     "schools": "Juniata College",
@@ -1329,7 +1317,7 @@
     "longitude": -84.5816,
     "year_established": 2015,
     "details": "",
-    "links": "https://graduate.kennesaw.edu/datascience/"
+    "links": "https://www.kennesaw.edu/degrees-programs/doctoral-degrees/data-science-analytics.php"
   },
   {
     "schools": "Kennesaw State University, School of Data Science and Analytics",
@@ -1365,18 +1353,18 @@
     "longitude": -83.6875,
     "year_established": 2020,
     "details": "",
-    "links": "https://kettering.edu/programs-and-degrees/data-science-masters"
+    "links": "https://www.kettering.edu/academics-research/programs/applied-data-science-and-data-analytics-masters"
   },
   {
     "schools": "La Salle University, School of Arts and Sciences",
-    "programs": "MS in Analytics",
+    "programs": "MS in Business Systems and Analytics",
     "city": "Philadelphia",
     "state": "PA",
     "zipcode": 19141,
     "latitude": 40.0382,
     "longitude": -75.1504,
     "year_established": 2015,
-    "details": "",
+    "details": "Formerly MS in Analytics",
     "links": "https://www.lasalle.edu/analytics/"
   },
   {
@@ -1416,8 +1404,8 @@
     "links": "https://www.lewisu.edu/academics/business-analytics/index.htm"
   },
   {
-    "schools": "Lipscomb University, College of Computing and Technology",
-    "programs": "MS in Data Science",
+    "schools": "Lipscomb University",
+    "programs": "MS in Sport Analytics",
     "city": "Nashville",
     "state": "TN",
     "zipcode": 37204,
@@ -1425,7 +1413,7 @@
     "longitude": -86.799,
     "year_established": 2016,
     "details": "",
-    "links": "https://www.lipscomb.edu/technology/graduate-programs/graduate-data-science"
+    "links": "https://lipscomb.edu/academics/programs/sport-analytics"
   },
   {
     "schools": "Loras College",
