@@ -74,6 +74,7 @@ const els = {
   visibleStates: document.getElementById("visible-states"),
   listSummary: document.getElementById("list-summary"),
   resultsList: document.getElementById("results-list"),
+  detailPanel: document.querySelector(".detail-panel"),
   detailCard: document.getElementById("detail-card"),
 };
 
@@ -212,8 +213,8 @@ function applyFilters() {
     return matchesQuery && matchesState && matchesProgramType && matchesYear;
   });
 
-  if (!state.filteredPrograms.some((item) => item.id === state.selectedId)) {
-    state.selectedId = state.filteredPrograms[0]?.id || null;
+  if (!state.filteredPrograms.some((item) => item.id === state.selectedId) || state.filteredPrograms.length > 1) {
+    state.selectedId = null;
   }
 
   renderResults();
@@ -250,7 +251,7 @@ function renderResults() {
 
   for (const node of els.resultsList.querySelectorAll(".result-item[data-id]")) {
     node.addEventListener("click", () =>
-      selectProgram(Number(node.dataset.id), { panToMarker: true, openLink: true })
+      focusProgram(Number(node.dataset.id), { openLink: true })
     );
   }
 }
@@ -277,7 +278,7 @@ function renderMapMarkers() {
       </div>
     `);
 
-    marker.on("click", () => selectProgram(item.id, { panToMarker: false, openLink: false }));
+    marker.on("click", () => selectProgram(item.id, { panToMarker: false }));
     marker.addTo(state.markersLayer);
     state.markers.set(item.id, marker);
     bounds.push([item.latitude, item.longitude]);
@@ -295,11 +296,16 @@ function renderMapMarkers() {
 function renderDetail() {
   const selected = state.filteredPrograms.find((item) => item.id === state.selectedId);
   if (!selected) {
-    els.detailCard.className = "detail-card empty";
-    els.detailCard.textContent = "Select a program from the map or list.";
+    els.detailPanel.classList.add("is-collapsed");
+    els.detailCard.className = "detail-card empty collapsed";
+    els.detailCard.innerHTML = `
+      <strong>Program details are hidden by default.</strong>
+      <span>Click a marker on the map to expand this panel.</span>
+    `;
     return;
   }
 
+  els.detailPanel.classList.remove("is-collapsed");
   els.detailCard.className = "detail-card";
   els.detailCard.innerHTML = `
     <h3>${escapeHtml(selected.school)}</h3>
@@ -331,19 +337,29 @@ function renderDetail() {
 }
 
 function selectProgram(id, options = {}) {
-  const { panToMarker = false, openLink = false } = options;
+  const { panToMarker = false } = options;
   state.selectedId = id;
   renderResults();
   renderMapMarkers();
   renderDetail();
 
-  const selected = state.filteredPrograms.find((item) => item.id === id);
   const marker = state.markers.get(id);
   if (marker) {
     marker.openPopup();
     if (panToMarker) {
       state.map.flyTo(marker.getLatLng(), 8, { duration: 0.8 });
     }
+  }
+}
+
+function focusProgram(id, options = {}) {
+  const { openLink = false } = options;
+  const selected = state.filteredPrograms.find((item) => item.id === id);
+  const marker = state.markers.get(id);
+
+  if (marker) {
+    marker.openPopup();
+    state.map.flyTo(marker.getLatLng(), 8, { duration: 0.8 });
   }
 
   if (openLink && selected?.link) {

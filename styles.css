@@ -344,10 +344,32 @@ body {
   border: 1px solid #e2e2e2;
 }
 
+.detail-panel.is-collapsed .detail-card {
+  min-height: 148px;
+}
+
 .detail-card.empty {
   display: grid;
   place-items: center;
   color: var(--muted);
+}
+
+.detail-card.collapsed {
+  gap: 8px;
+  text-align: center;
+  background: #fdfdfd;
+}
+
+.detail-card.collapsed strong {
+  display: block;
+  color: var(--ink);
+  font-size: 0.98rem;
+}
+
+.detail-card.collapsed span {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .detail-card h3,
